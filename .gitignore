@@ -1,0 +1,31 @@
+# Build artefacts
+NotchBuddy/build/
+NotchBuddy/NotchBuddy.xcodeproj/project.xcworkspace/xcuserdata/
+NotchBuddy/NotchBuddy.xcodeproj/xcuserdata/
+*.xcuserstate
+
+# Xcode DerivedData (outside repo — listed for clarity)
+DerivedData/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# iCloud stubs
+*.icloud
+
+# Local only (never published)
+.claude/
+_prive/
+
+# Nossa versão: builds locais e arquivos gerados pelo xcodegen
+.build/
+.coucou-sessoes/
+NotchBuddy/NotchBuddy.xcodeproj/xcshareddata/
+
+# Projeto do Xcode: sai inteiro do project.yml (xcodegen) a cada build dos scripts.
+# Versionado, conflitava em toda integração de sessões paralelas.
+NotchBuddy/NotchBuddy.xcodeproj/
+testes/*/build/
+testes/*/medidor.txt

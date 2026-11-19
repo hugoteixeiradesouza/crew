@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Crew</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>fr.louisraille.NotchBuddy</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Crew</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.1</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>Crew</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>crew</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>Para as teclas de brilho e volume mostrarem o nível na ilha e para anexar a janela ativa ao chat.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Para controlar a música (Spotify e Música) e ir até o terminal.</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>Para mudar o volume de cada app: o Crew pega o som do app, ajusta o volume e toca de volta. Nada é gravado nem sai do Mac.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Para a bolha da câmera na gravação de tela (só enquanto você grava ou pede para ver) e para os sites que você abre no navegador do Crew e que pedem a câmera. O Crew pergunta site por site.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSLocationUsageDescription</key>
+	<string>Para os sites que você abre no navegador do Crew e que pedem a sua localização. O Crew pergunta site por site.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Para os sites que você abre no navegador do Crew e que pedem a sua localização. O Crew pergunta site por site.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Para o ditado (o Crew ouve só enquanto você dita e transforma a fala em texto neste Mac) e para a sua voz entrar na gravação de tela, quando você liga o microfone nela. O vídeo fica neste Mac.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Para transformar em texto o que você dita e para legendar as gravações de tela que você manda editar. O reconhecimento é feito neste Mac; o ditado só usa a Apple se você permitir nos ajustes da Voz. Nada é gravado.</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
+</dict>
+</plist>
